@@ -17,7 +17,6 @@ function Helix(parentElement){
   var numCols = 20;
   var colDifference = 35;
   var y;
-  var strandPhase = 0;
   var pi = 3.14;
 
   this.draw = function() {
