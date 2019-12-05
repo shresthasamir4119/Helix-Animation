@@ -2,6 +2,9 @@ var frame = document.getElementById('canvas');
 frame.height = 500;
 frame.width = 800;
 
+var frame2 =document.getElementById('canvas2');
+frame2.height = 500;
+frame2.width = 700;
 
 function Helix(parentElement){
   var canvas = parentElement;
@@ -51,3 +54,4 @@ function Helix(parentElement){
 }
 
 var helix = new Helix(frame);
+var helix2 = new Helix(frame2);
